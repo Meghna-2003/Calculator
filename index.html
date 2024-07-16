@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/index.css">
+  <title>Calculator</title>
+</head>
+<body>
+    <div id="main-container">
+      <input type="text" id="textbox" readonly>
+      <div id="button-container">
+        <button class="cal-button" onclick="text='';document.querySelector('#textbox').value=text;">C</button>
+        <button class="cal-button" onclick="text=text+'1';document.querySelector('#textbox').value=text;">1</button>
+        <button class="cal-button" onclick="text=text+'2';document.querySelector('#textbox').value=text;">2</button>
+        <button class="cal-button" onclick="text=text+'+';document.querySelector('#textbox').value=text;">+</button>
+        <button class="cal-button" onclick="text=text+'3';document.querySelector('#textbox').value=text;">3</button>
+        <button class="cal-button" onclick="text=text+'4';document.querySelector('#textbox').value=text;">4</button>
+        <button class="cal-button" onclick="text=text+'-';document.querySelector('#textbox').value=text;">-</button>
+        <button class="cal-button" onclick="text=text+'5';document.querySelector('#textbox').value=text;">5</button>
+        <button class="cal-button" onclick="text=text+'6';document.querySelector('#textbox').value=text;">6</button>
+        <button class="cal-button" onclick="text=text+'*';document.querySelector('#textbox').value=text;">*</button>
+        <button class="cal-button" onclick="text=text+'7';document.querySelector('#textbox').value=text;">7</button>
+        <button class="cal-button" onclick="text=text+'8';document.querySelector('#textbox').value=text;">8</button>
+        <button class="cal-button" onclick="text=text+'/';document.querySelector('#textbox').value=text;">/</button>
+        <button class="cal-button" onclick="text=eval(text);document.querySelector('#textbox').value=text;">=</button>
+        <button class="cal-button" onclick="text=text+'9';document.querySelector('#textbox').value=text;">9</button>
+        <button class="cal-button" onclick="text=text+'0';document.querySelector('#textbox').value=text;">0</button>
+        <button class="cal-button" onclick="text=text+'.';document.querySelector('#textbox').value=text;">.</button>
+      </div>
+
+    </div>
+<script src="js/index.js">
+
+</script>
+</body>
+</html>

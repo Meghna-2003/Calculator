@@ -1,0 +1,21 @@
+#main-container{
+width: 100px;
+border:1px solid rgb(220, 220, 220);
+padding-bottom: 5px;
+border-radius: 2px;
+}
+#textbox{
+  width: 80%;
+  margin: 5px;
+  margin-left: 7px;
+}
+#button-container{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cal-button{
+  width: 25px;
+  height: 25px;
+  margin: 1px;
+}
